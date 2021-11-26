@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF93669B275161A5006CC31D /* WeikersheimMockupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF93669A275161A5006CC31D /* WeikersheimMockupApp.swift */; };
+		AF93669D275161A5006CC31D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF93669C275161A5006CC31D /* ContentView.swift */; };
+		AF93669F275161A6006CC31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF93669E275161A6006CC31D /* Assets.xcassets */; };
+		AF9366A2275161A6006CC31D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9366A1275161A6006CC31D /* Preview Assets.xcassets */; };
+		AF9366AC275161A6006CC31D /* WeikersheimMockupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9366AB275161A6006CC31D /* WeikersheimMockupTests.swift */; };
+		AF9366B6275161A6006CC31D /* WeikersheimMockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9366B5275161A6006CC31D /* WeikersheimMockupUITests.swift */; };
+		AF9366B8275161A6006CC31D /* WeikersheimMockupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9366B7275161A6006CC31D /* WeikersheimMockupUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF9366A8275161A6006CC31D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF93668F275161A5006CC31D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF936696275161A5006CC31D;
+			remoteInfo = WeikersheimMockup;
+		};
+		AF9366B2275161A6006CC31D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF93668F275161A5006CC31D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF936696275161A5006CC31D;
+			remoteInfo = WeikersheimMockup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF936697275161A5006CC31D /* WeikersheimMockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeikersheimMockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF93669A275161A5006CC31D /* WeikersheimMockupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeikersheimMockupApp.swift; sourceTree = "<group>"; };
+		AF93669C275161A5006CC31D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF93669E275161A6006CC31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF9366A1275161A6006CC31D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF9366A7275161A6006CC31D /* WeikersheimMockupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeikersheimMockupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9366AB275161A6006CC31D /* WeikersheimMockupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeikersheimMockupTests.swift; sourceTree = "<group>"; };
+		AF9366B1275161A6006CC31D /* WeikersheimMockupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeikersheimMockupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9366B5275161A6006CC31D /* WeikersheimMockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeikersheimMockupUITests.swift; sourceTree = "<group>"; };
+		AF9366B7275161A6006CC31D /* WeikersheimMockupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeikersheimMockupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF936694275161A5006CC31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9366A4275161A6006CC31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9366AE275161A6006CC31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF93668E275161A5006CC31D = {
+			isa = PBXGroup;
+			children = (
+				AF936699275161A5006CC31D /* WeikersheimMockup */,
+				AF9366AA275161A6006CC31D /* WeikersheimMockupTests */,
+				AF9366B4275161A6006CC31D /* WeikersheimMockupUITests */,
+				AF936698275161A5006CC31D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF936698275161A5006CC31D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF936697275161A5006CC31D /* WeikersheimMockup.app */,
+				AF9366A7275161A6006CC31D /* WeikersheimMockupTests.xctest */,
+				AF9366B1275161A6006CC31D /* WeikersheimMockupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF936699275161A5006CC31D /* WeikersheimMockup */ = {
+			isa = PBXGroup;
+			children = (
+				AF93669A275161A5006CC31D /* WeikersheimMockupApp.swift */,
+				AF93669C275161A5006CC31D /* ContentView.swift */,
+				AF93669E275161A6006CC31D /* Assets.xcassets */,
+				AF9366A0275161A6006CC31D /* Preview Content */,
+			);
+			path = WeikersheimMockup;
+			sourceTree = "<group>";
+		};
+		AF9366A0275161A6006CC31D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF9366A1275161A6006CC31D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF9366AA275161A6006CC31D /* WeikersheimMockupTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF9366AB275161A6006CC31D /* WeikersheimMockupTests.swift */,
+			);
+			path = WeikersheimMockupTests;
+			sourceTree = "<group>";
+		};
+		AF9366B4275161A6006CC31D /* WeikersheimMockupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF9366B5275161A6006CC31D /* WeikersheimMockupUITests.swift */,
+				AF9366B7275161A6006CC31D /* WeikersheimMockupUITestsLaunchTests.swift */,
+			);
+			path = WeikersheimMockupUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF936696275161A5006CC31D /* WeikersheimMockup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9366BB275161A6006CC31D /* Build configuration list for PBXNativeTarget "WeikersheimMockup" */;
+			buildPhases = (
+				AF936693275161A5006CC31D /* Sources */,
+				AF936694275161A5006CC31D /* Frameworks */,
+				AF936695275161A5006CC31D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeikersheimMockup;
+			productName = WeikersheimMockup;
+			productReference = AF936697275161A5006CC31D /* WeikersheimMockup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF9366A6275161A6006CC31D /* WeikersheimMockupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9366BE275161A6006CC31D /* Build configuration list for PBXNativeTarget "WeikersheimMockupTests" */;
+			buildPhases = (
+				AF9366A3275161A6006CC31D /* Sources */,
+				AF9366A4275161A6006CC31D /* Frameworks */,
+				AF9366A5275161A6006CC31D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9366A9275161A6006CC31D /* PBXTargetDependency */,
+			);
+			name = WeikersheimMockupTests;
+			productName = WeikersheimMockupTests;
+			productReference = AF9366A7275161A6006CC31D /* WeikersheimMockupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF9366B0275161A6006CC31D /* WeikersheimMockupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9366C1275161A6006CC31D /* Build configuration list for PBXNativeTarget "WeikersheimMockupUITests" */;
+			buildPhases = (
+				AF9366AD275161A6006CC31D /* Sources */,
+				AF9366AE275161A6006CC31D /* Frameworks */,
+				AF9366AF275161A6006CC31D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9366B3275161A6006CC31D /* PBXTargetDependency */,
+			);
+			name = WeikersheimMockupUITests;
+			productName = WeikersheimMockupUITests;
+			productReference = AF9366B1275161A6006CC31D /* WeikersheimMockupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF93668F275161A5006CC31D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AF936696275161A5006CC31D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AF9366A6275161A6006CC31D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AF936696275161A5006CC31D;
+					};
+					AF9366B0275161A6006CC31D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AF936696275161A5006CC31D;
+					};
+				};
+			};
+			buildConfigurationList = AF936692275161A5006CC31D /* Build configuration list for PBXProject "WeikersheimMockup" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF93668E275161A5006CC31D;
+			productRefGroup = AF936698275161A5006CC31D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF936696275161A5006CC31D /* WeikersheimMockup */,
+				AF9366A6275161A6006CC31D /* WeikersheimMockupTests */,
+				AF9366B0275161A6006CC31D /* WeikersheimMockupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF936695275161A5006CC31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9366A2275161A6006CC31D /* Preview Assets.xcassets in Resources */,
+				AF93669F275161A6006CC31D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9366A5275161A6006CC31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9366AF275161A6006CC31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF936693275161A5006CC31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF93669D275161A5006CC31D /* ContentView.swift in Sources */,
+				AF93669B275161A5006CC31D /* WeikersheimMockupApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9366A3275161A6006CC31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9366AC275161A6006CC31D /* WeikersheimMockupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9366AD275161A6006CC31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9366B6275161A6006CC31D /* WeikersheimMockupUITests.swift in Sources */,
+				AF9366B8275161A6006CC31D /* WeikersheimMockupUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF9366A9275161A6006CC31D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF936696275161A5006CC31D /* WeikersheimMockup */;
+			targetProxy = AF9366A8275161A6006CC31D /* PBXContainerItemProxy */;
+		};
+		AF9366B3275161A6006CC31D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF936696275161A5006CC31D /* WeikersheimMockup */;
+			targetProxy = AF9366B2275161A6006CC31D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF9366B9275161A6006CC31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF9366BA275161A6006CC31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF9366BC275161A6006CC31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeikersheimMockup/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedecologne.WeikersheimMockup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF9366BD275161A6006CC31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeikersheimMockup/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedecologne.WeikersheimMockup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF9366BF275161A6006CC31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedecologne.WeikersheimMockupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeikersheimMockup.app/WeikersheimMockup";
+			};
+			name = Debug;
+		};
+		AF9366C0275161A6006CC31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedecologne.WeikersheimMockupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeikersheimMockup.app/WeikersheimMockup";
+			};
+			name = Release;
+		};
+		AF9366C2275161A6006CC31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedecologne.WeikersheimMockupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeikersheimMockup;
+			};
+			name = Debug;
+		};
+		AF9366C3275161A6006CC31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codedecologne.WeikersheimMockupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeikersheimMockup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF936692275161A5006CC31D /* Build configuration list for PBXProject "WeikersheimMockup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9366B9275161A6006CC31D /* Debug */,
+				AF9366BA275161A6006CC31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9366BB275161A6006CC31D /* Build configuration list for PBXNativeTarget "WeikersheimMockup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9366BC275161A6006CC31D /* Debug */,
+				AF9366BD275161A6006CC31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9366BE275161A6006CC31D /* Build configuration list for PBXNativeTarget "WeikersheimMockupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9366BF275161A6006CC31D /* Debug */,
+				AF9366C0275161A6006CC31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9366C1275161A6006CC31D /* Build configuration list for PBXNativeTarget "WeikersheimMockupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9366C2275161A6006CC31D /* Debug */,
+				AF9366C3275161A6006CC31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF93668F275161A5006CC31D /* Project object */;
+}
